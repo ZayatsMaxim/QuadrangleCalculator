@@ -1,8 +1,8 @@
-package com.zayats.properties;
+package com.zayats.entity;
 
 public class Point {
-    private double xCoordinate;
-    private double yCoordinate;
+    final private double xCoordinate;
+    final private double yCoordinate;
 
     public Point(){
         xCoordinate = 0;
